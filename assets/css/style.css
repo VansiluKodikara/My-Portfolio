@@ -12,6 +12,7 @@
 }
 
 body {
+    background-color: black;
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
@@ -80,6 +81,7 @@ body {
     text-align: center;
     height: 100%;
     padding: 0px 20px;
+    align-items: center;
 
     text-decoration: none !important;
     color: #ffffff;
@@ -94,7 +96,22 @@ body {
     background-color: #111111;
 }
 
+.material-symbols-outlined {
+  font-variation-settings:
+  'FILL' 0,
+  'wght' 400,
+  'GRAD' 0,
+  'opsz' 24
+}
+
 .theme-button button{
+    height: 46px;
+    width: 46px;
+    padding: 0;
+    border: none;
+    border-radius: 4%;
     cursor: pointer;
+    background-color: #2C2C2C;
+    align-items: center;
 } 
 
