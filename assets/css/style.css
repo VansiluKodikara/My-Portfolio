@@ -42,8 +42,8 @@ body {
 .logo a {
     display: flex;
     align-items: center;
-    gap: 15px; /* Spacing between image and name */
-    text-decoration: none; /* Removes the underline from the link */
+    gap: 15px;
+    text-decoration: none;
 }
 
 .logo h1 {
@@ -52,40 +52,6 @@ body {
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     line-height: 1;
-}
-
-.navigations {
-    display: flex;
-    justify-content: right;
-    align-items: center;
-    padding: 0px 20px;
-    height: 100%;
-}
-
-.navigations .nav {
-    display: flex;
-    gap: 25px;
-    height: 100%;
-}
-
-.navigations a {
-    display: flex;
-    text-align: center;
-    height: 100%;
-    padding: 0px 20px;
-    align-items: center;
-
-    text-decoration: none !important;
-    color: #ffffff;
-    margin: 0;
-    font-family: 'Roboto', sans-serif;
-    font-size: 1.2rem;
-    line-height: 1;
-    transition: background-color 0.2s ease;
-}
-
-.navigations .nav a:hover {
-    background-color: #111111;
 }
 
 .material-symbols-outlined {
@@ -123,7 +89,7 @@ main .main-card .container {
     width: 100%;
 }
 
-main .main-card img {
+main .main-card .profile-image {
     position: absolute;
     top: 0;
     left: 50%;
@@ -193,15 +159,15 @@ main .main-card .container .separator::before {
 .project-card-img-wrapper {
     width: 100%;
     height: 225px;
-    background: transparent;
+    background: grey;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 .project-card-img {
-    height: 120px;
-    width: 120px;
+    height: 225px;
+    width: 100%;
     object-fit: contain;
     display: block;      
 }
@@ -220,10 +186,25 @@ main .main-card .container .separator::before {
 
 .project-card-content p {
     margin: 0;
+    margin-bottom: 30px;
     color: #b3b3b3;
     font-size: 0.95rem;
     line-height: 1.5;
 }
+
+.project-card-content .view-code {
+    margin: 0 0 10px 0;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    background-color: #444444;
+    color: white;
+    display: inline-block;
+    padding: 20px;
+    padding: 0.6rem 1.5rem;
+    line-height: 1.5;
+    cursor: pointer;
+}
+
 .tech-slider-wrapper {
     overflow: hidden;
     width: 100%;
