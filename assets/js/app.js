@@ -1,59 +1,28 @@
-const button1 = document.getElementById("test-api-1-btn");
+// Function to safely add listeners without crashing the script
+function setupLink(id, url) {
+    const button = document.getElementById(id);
+    if (button) {
+        button.addEventListener("click", function() {
+            window.location.href = url;
+        });
+    }
+}
 
-button1.addEventListener("click", function(){
-    window.location.href = "https://github.com/VansiluKodikara/Test-API";
-});
+// Featured Projects
+setupLink("tide-code-btn", "https://github.com/VansiluKodikara/Tide-Pomodoro-Timer");
+setupLink("bookrent-code-btn", "https://github.com/VansiluKodikara/BookRentalManagementSystem");
+setupLink("thogakade-pos-btn", "https://github.com/VansiluKodikara/ThogakadePracticeProject");
 
-const button2 = document.getElementById("test-api-2-btn");
+// Grid Projects
+setupLink("test-api-1-btn", "https://github.com/VansiluKodikara/Test-API");
+setupLink("test-api-2-btn", "https://github.com/VansiluKodikara/Test-API-2");
+setupLink("thogakade-pos-grid-btn", "https://github.com/VansiluKodikara/ThogakadePracticeProject");
+setupLink("bookrent-grid-btn", "https://github.com/VansiluKodikara/BookRentalManagementSystem");
+setupLink("weatherfinder-code-btn", "https://github.com/VansiluKodikara/Weather-application");
+setupLink("tide-grid-btn", "https://github.com/VansiluKodikara/Tide-Pomodoro-Timer");
 
-button2.addEventListener("click", function(){
-    window.location.href = "https://github.com/VansiluKodikara/Test-API-2";
-});
-
-const button3 = document.getElementById("thogakade-pos-btn");
-
-button3.addEventListener("click", function(){
-    window.location.href = "https://github.com/VansiluKodikara/ThogakadePracticeProject";
-});
-
-const button4 = document.getElementById("bookrent-code-btn");
-
-button4.addEventListener("click", function(){
-    window.location.href = "https://github.com/VansiluKodikara/BookRentalManagementSystem";
-});
-
-const button5 = document.getElementById("weatherfinder-code-btn");
-
-button5.addEventListener("click", function(){
-    window.location.href = "https://github.com/VansiluKodikara/Weather-application";
-});
-
-const button6 = document.getElementById("tide-code-btn");
-
-button6.addEventListener("click", function(){
-    window.location.href = "https://github.com/VansiluKodikara/Tide-Pomodoro-Timer";
-});
-
-const button7 = document.getElementById("portfolio-btn");
-
-button7.addEventListener("click", function(){
-    window.location.href = "https://vansilukodikara.vercel.app";
-});
-
-const button8 = document.getElementById("email-btn");
-
-button8.addEventListener("click", function(){
-    window.location.href = "kodikaravansilu@gmail.com";
-});
-
-const button9 = document.getElementById("linkedin-btn");
-
-button9.addEventListener("click", function(){
-    window.location.href = "https://www.linkedin.com/in/vansilu-kodikara-a3124b372/";
-});
-
-const button10 = document.getElementById("github-btn");
-
-button10.addEventListener("click", function(){
-    window.location.href = "https://github.com/VansiluKodikara";
-});
+// Contacts
+setupLink("portfolio-btn", "https://vansilukodikara.vercel.app/");
+setupLink("email-btn", "mailto:kodikaravansilu@gmail.com");
+setupLink("linkedin-btn", "https://www.linkedin.com/in/vansilu-kodikara-a3124b372/");
+setupLink("github-btn", "https://github.com/VansiluKodikara");
