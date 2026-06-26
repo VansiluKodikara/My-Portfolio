@@ -1,4 +1,3 @@
-// Function to safely add listeners without crashing the script
 function setupLink(id, url) {
     const button = document.getElementById(id);
     if (button) {
