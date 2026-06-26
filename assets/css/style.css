@@ -26,6 +26,7 @@ body {
     padding: 0px 20px;
     position: sticky;
     top: 0;
+    z-index: 1000;
 }
 
 .header-content {
@@ -70,11 +71,13 @@ main {
 main .main-card {
     background-color: #2C2C2C;
     position: relative;
+    z-index: 1;
     display: flex;
     justify-content: center;
     align-items: center;
     height: 100%;
-    margin: 80px auto 0 auto;
+    margin: 80px auto auto auto;
+    margin-bottom: 80px;
     border-radius: 50px;
     border: 2px solid grey;
     padding: 40px 20px 20px 20px;
@@ -134,6 +137,88 @@ main .main-card .container .separator::after {
 
 main .main-card .container .separator::before {
     margin-right: 30px;
+}
+
+.featured-project-card-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    gap: 30px;
+    padding: 40px 20px;
+    max-width: 1140px;
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+.featured-project-card {
+    background-color: #252525;
+    border: 2px solid #444444;   
+    border-radius: 12px;
+    overflow: hidden;          
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.featured-project-card-img-wrapper {
+    width: 100%;
+    height: 225px;
+    background: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.featured-project-card-img {
+    height: 225px;
+    width: 100%;
+    object-fit: contain;
+    display: block;      
+}
+
+.featured-project-card-content {
+    padding: 20px;
+    text-align: left;
+}
+
+.featured-project-card-content h4 {
+    margin: 0 0 10px 0;
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.featured-project-card-content p {
+    margin: 0;
+    margin-bottom: 30px;
+    color: #b3b3b3;
+    font-size: 0.95rem;
+    line-height: 1.5;
+}
+
+.featured-project-card-content .view-code {
+    margin: 0 0 10px 0;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    background-color: #444444;
+    color: white;
+    display: inline-flex;
+    align-items: center;
+    padding: 20px;
+    padding: 0.6rem 1.5rem;
+    line-height: 1.5;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.featured-project-card-content .view-code .view {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    align-content: center;
+    gap: 5px;
 }
 
 .project-card-grid {
@@ -198,11 +283,51 @@ main .main-card .container .separator::before {
     border-radius: 20px;
     background-color: #444444;
     color: white;
-    display: inline-block;
+    display: inline-flex;
+    align-items: center;
     padding: 20px;
     padding: 0.6rem 1.5rem;
     line-height: 1.5;
     cursor: pointer;
+    gap: 5px;
+}
+
+.project-card-content .view-code .view {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    align-content: center;
+    gap: 5px;
+}
+
+.contacts-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 0 0;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    background-color: #444444;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    padding: 0.6rem 1.5rem;
+    line-height: 1.5;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.contacts-btn .contacts-btn-img {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    align-content: center;
+    gap: 5px;
 }
 
 .tech-slider-wrapper {
