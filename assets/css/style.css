@@ -233,9 +233,9 @@ main .main-card .container .separator::before {
 
 .project-card {
     background-color: #252525;
-    border: 2px solid #444444;   
+    border: 2px solid #444444;
     border-radius: 12px;
-    overflow: hidden;          
+    overflow: hidden;
     display: flex;
     flex-direction: column;
     width: 100%;
@@ -418,4 +418,22 @@ main .main-card .container footer {
     color: grey;
     justify-content: space-evenly;
     margin: 30px 0;
+}
+
+@media (max-width: 600px) {
+
+    .featured-project-card-grid {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project-card-grid { 
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
 }
