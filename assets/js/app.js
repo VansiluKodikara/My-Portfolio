@@ -12,7 +12,7 @@ setupLink("tide-code-btn", "https://github.com/VansiluKodikara/Tide-Pomodoro-Tim
 setupLink("bookrent-code-btn", "https://github.com/VansiluKodikara/BookRentalManagementSystem");
 setupLink("thogakade-pos-btn", "https://github.com/VansiluKodikara/ThogakadePracticeProject");
 
-// Grid Projects
+// Projects
 setupLink("test-api-1-btn", "https://github.com/VansiluKodikara/Test-API");
 setupLink("test-api-2-btn", "https://github.com/VansiluKodikara/Test-API-2");
 setupLink("thogakade-pos-grid-btn", "https://github.com/VansiluKodikara/ThogakadePracticeProject");
