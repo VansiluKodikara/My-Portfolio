@@ -1,3 +1,27 @@
+let backToTopBtn = document.getElementById("back-to-top-btn");
+
+window.onscroll = function () {
+    scrollFunction();
+};
+
+backToTopBtn.addEventListener("click", backToTopFunction);
+
+function scrollFunction() {
+    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+        backToTopBtn.style.display = "block";
+    } else {
+        backToTopBtn.style.display = "none";
+    }
+}
+
+function backToTopFunction() {
+    window.scrollTo({
+        top: 0,
+        behavior: "smooth"
+    });
+}
+
+
 function setupLink(id, url) {
     const button = document.getElementById(id);
     if (button) {
