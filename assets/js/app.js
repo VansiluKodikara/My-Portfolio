@@ -39,6 +39,7 @@ setupLink("thogakade-pos-btn", "https://github.com/VansiluKodikara/ThogakadePrac
 // Projects
 setupLink("test-api-1-btn", "https://github.com/VansiluKodikara/Test-API");
 setupLink("test-api-2-btn", "https://github.com/VansiluKodikara/Test-API-2");
+setupLink("test-api-3-btn", "https://github.com/VansiluKodikara/Test-API-3")
 setupLink("thogakade-pos-grid-btn", "https://github.com/VansiluKodikara/ThogakadePracticeProject");
 setupLink("bookrent-grid-btn", "https://github.com/VansiluKodikara/BookRentalManagementSystem");
 setupLink("weatherfinder-code-btn", "https://github.com/VansiluKodikara/Weather-application");
