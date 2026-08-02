@@ -25,7 +25,7 @@ function backToTopFunction() {
 function setupLink(id, url) {
     const button = document.getElementById(id);
     if (button) {
-        button.addEventListener("click", function() {
+        button.addEventListener("click", function () {
             window.location.href = url;
         });
     }
