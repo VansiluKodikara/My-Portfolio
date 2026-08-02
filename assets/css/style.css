@@ -196,13 +196,11 @@ main .main-card .container .separator::before {
 }
 
 .project-card-content .view-code {
-    margin: 0 0 10px 0;
     border: 1px solid gainsboro;
     border-radius: 20px;
     background-color: #444444;
     color: white;
     display: inline-flex;
-    align-items: center;
     padding: 20px;
     padding: 0.6rem 1.5rem;
     line-height: 1.5;
@@ -278,13 +276,11 @@ main .main-card .container .separator::before {
 }
 
 .featured-project-card-content .view-code {
-    margin: 0 0 10px 0;
     border: 1px solid gainsboro;
     border-radius: 20px;
     background-color: #444444;
     color: white;
     display: inline-flex;
-    align-items: center;
     padding: 20px;
     padding: 0.6rem 1.5rem;
     line-height: 1.5;
