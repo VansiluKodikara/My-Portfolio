@@ -453,3 +453,21 @@ main .main-card .container footer {
     }
 
 }
+
+@media (max-width: 796px) {
+
+    .featured-project-card-grid {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .project-card-grid {
+        overflow: hidden;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+}
