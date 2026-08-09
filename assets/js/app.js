@@ -31,12 +31,12 @@ function setupLink(id, url) {
     }
 }
 
-// Featured Projects
+//featured projects
 setupLink("tide-code-btn", "https://github.com/VansiluKodikara/Tide-Pomodoro-Timer");
 setupLink("bookrent-code-btn", "https://github.com/VansiluKodikara/BookRentalManagementSystem");
 setupLink("thogakade-pos-btn", "https://github.com/VansiluKodikara/ThogakadePracticeProject");
 
-// Projects
+//projects
 setupLink("test-api-1-btn", "https://github.com/VansiluKodikara/Test-API");
 setupLink("test-api-2-btn", "https://github.com/VansiluKodikara/Test-API-2");
 setupLink("test-api-3-btn", "https://github.com/VansiluKodikara/Test-API-3")
@@ -45,7 +45,7 @@ setupLink("bookrent-grid-btn", "https://github.com/VansiluKodikara/BookRentalMan
 setupLink("weatherfinder-code-btn", "https://github.com/VansiluKodikara/Weather-application");
 setupLink("tide-grid-btn", "https://github.com/VansiluKodikara/Tide-Pomodoro-Timer");
 
-// Contacts
+//contacts
 setupLink("portfolio-btn", "https://vansilukodikara.vercel.app/");
 setupLink("email-btn", "mailto:kodikaravansilu@gmail.com");
 setupLink("linkedin-btn", "https://www.linkedin.com/in/vansilu-kodikara-a3124b372/");
