@@ -32,7 +32,8 @@ function setupLink(id, url) {
 }
 
 
-setupLink("download-btn", "https://drive.google.com/file/d/1TsJT_7IiYDbyf3IV78XT-KQUvxMK9ro0/view?usp=sharing")
+setupLink("download-btn", "https://drive.google.com/file/d/1TsJT_7IiYDbyf3IV78XT-KQUvxMK9ro0/view?usp=sharing");
+
 
 setupLink("tide-code-btn", "https://github.com/VansiluKodikara/Tide-Pomodoro-Timer");
 setupLink("bookrent-code-btn", "https://github.com/VansiluKodikara/BookRentalManagementSystem");
