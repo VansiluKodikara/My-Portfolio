@@ -326,6 +326,33 @@ main .main-card .container .separator::before {
     gap: 5px;
 }
 
+.download-btn {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px 0 0;
+    border: 1px solid gainsboro;
+    border-radius: 20px;
+    background-color: #444444;
+    color: white;
+    align-items: center;
+    padding: 20px;
+    padding: 0.6rem 1.5rem;
+    line-height: 1.5;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.download-btn .download-btn-img {
+    display: inline-flex;
+    align-items: center;
+    height: 20px;
+    width: 20px;
+    border: none;
+    border-radius: 50%;
+    align-content: center;
+    gap: 5px;
+}
+
 .tech-slider-wrapper {
     overflow: hidden;
     width: 100%;
