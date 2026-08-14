@@ -40,19 +40,13 @@ body {
     gap: 15px;
 }
 
-.logo a {
-    display: flex;
-    align-items: center;
-    gap: 15px;
-    text-decoration: none;
-}
-
 .logo h1 {
     margin: 0;
     font-size: 1.8rem;
     color: #ffffff;
     font-family: "Roboto", sans-serif;
     line-height: 1;
+    cursor: pointer;
 }
 
 .material-symbols-outlined {

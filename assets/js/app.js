@@ -21,6 +21,12 @@ function backToTopFunction() {
     });
 }
 
+const reload = document.querySelector('#reload');
+
+reload.addEventListener("click", function () {
+    window.location.reload();
+});
+
 
 function setupLink(id, url) {
     const button = document.getElementById(id);
