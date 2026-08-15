@@ -1,0 +1,22 @@
+{
+  "name": "vansilu-portfolio",
+  "version": "1.0.0",
+  "description": "Personal portfolio of Vansilu Kodikara",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"No tests specified\" && exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/VansiluKodikara/My-Portfolio.git"
+  },
+  "keywords": [
+    "portfolio",
+    "personal-website"
+  ],
+  "author": "Vansilu Kodikara",
+  "license": "ISC",
+  "dependencies": {
+    "@vercel/speed-insights": "^1.0.14"
+  }
+}
